@@ -1,0 +1,89 @@
+/*
+Challenge:
+Select the img tag and set the width
+of the Goggle logo to be 300ox.
+*/
+
+/*
+
+INLINE ELEMENTS VS BLOCK ELEMENTS
+display: INLINE; means pic show horizontally
+isplay: BLOCK; means pic show vertically
+Challenge:
+Select the img tag and set the width
+of the Goggle logo to be 300ox.
+*/
+
+.main {
+    margin-top:100px;
+    text-align: center;
+}
+
+.logo-img {
+    width: 300px;
+    display: block; 
+    margin-bottom: 20px;  
+    margin-left:auto;
+    margin-right: auto;         
+}
+
+.search-input {
+    display: block;
+    width: 500px; 
+    margin-left:auto;
+    margin-right: auto;     
+    border: 1px solid rgb(58, 111, 158);
+    border-radius: 30px; 
+    line-height: 24px; 
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+
+.click-button_1 {
+    /* margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    border: 1px solid rgb(43, 41, 41);
+    border-radius: 24px;
+    font-weight: bold;
+    background: white ; */
+    margin-top: 50px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    border: none;
+    border-radius: 4px;
+    font-size:14px;
+    background: rgb(219, 217, 217);
+    
+}
+
+.click-button_2 {
+    /* margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    border: 1px solid rgb(43, 41, 41);
+    border-radius: 24px;
+    font-weight: bold;
+    background: white ; */
+    
+    margin-top: 50px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    border: none;
+    border-radius: 4px;
+    font-size:14px;
+    background: rgb(219, 217, 217);
+
+}
